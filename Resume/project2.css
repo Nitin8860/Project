@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 900px;
+    width: 1280px;
+    background-color: rgb(224, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height: 800px;
+    width: 1100px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+
+.side-box{
+    height: 100%;
+    width: 250px;
+    background-color: rgb(12, 220, 157);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.profile-img{
+    background-image: url(prf\ 4.jpeg);
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.profile-img:hover{
+    border: 2px solid black;
+}
+
+.side-box p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+    padding-top: 10px;    
+}
+
+.prf-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.twitter{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(12, 220, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter:hover{
+    background-color: rgb(9, 111, 220);
+    color: white;
+}
+
+.linkedin{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(12, 220, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin:hover{
+    background-color: rgb(9, 111, 220);
+    color: white;
+}
+
+.git{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    color: rgb(12, 220, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git:hover{
+    background-color: black;
+    color: white;
+}
+
+.codepen{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(12, 220, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codepen:hover{
+    background-color: black;
+    color: white;
+}
+
+.insta{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(12, 220, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta:hover{
+    background-color: rgb(228, 43, 105);
+    color: white;
+}
+
+.side-mid{
+    height: 300px;
+    width: 90%;
+    margin-left: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+    
+}
+
+
+.About{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.About .about-icon i{
+    color: black;
+}
+
+.About .about-icon i:hover{
+    color: white;
+}
+
+.About .about-para{
+    
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.About .about-icon i{
+    color: rgba(19, 17, 17, 0.628);
+    margin-left: 2px;
+}
+
+.About .about-para p{
+    color: rgba(19, 17, 17, 0.628);
+}
+
+.About .about-para p:hover{
+    color: white;
+}
+
+.Portfolio{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.Portfolio .port-para{
+
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.portfolio-icon i:hover{
+    color: black;
+}
+
+.port-para p:hover{
+    color: black;
+}
+
+.Service{
+    height: 20px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.Service .service-para{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service-icon i:hover{
+    color: black;
+}
+
+.service-para p:hover{
+    color: black;
+}
+
+.blog{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.blog .blog-para{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.blog-icon i:hover{
+    color: black;
+}
+
+.blog-icon i:hover{
+    color: black;
+}
+
+.blog-para p:hover{
+    color: black;
+}
+
+.contact{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;blog
+}
+
+.contact .contact-para{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-icon i:hover{
+    color: black;
+}
+
+.contact-para p:hover{
+        color: black;
+}
+
+.hire-btn{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hire-btn button{
+    height: 42px;
+    width: 120px;
+    background-color: rgba(34, 36, 35, 0.678);
+    margin-left: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hire-btn button:hover{
+    background-color: black;
+}
+
+.hire-btn button .btn-txt{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire-btn button .btn-txt .btn-icon{
+    color: white;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.hire-btn button .icon-txt{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mode{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.mod-title{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mod-title .mod-icon{
+    color: white;
+}
+
+.mod-title .mod-para{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.mod-icon i:hover{
+    color: black;
+}
+
+.mod-para p:hover{
+    color: black;
+}
+
+.switch-btn{
+    height: 25px;
+    width: 65px;
+    border: 3px solid white;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.switch-btn .inner-btn{
+    height: 19px;
+    width: 30px;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin-left: 2px;
+}
+
+
+.main-box{
+    height: 100%;
+    width: 850px;
+}
+
+.upper-mid{
+    height: 350px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.large-img{
+    height: 250px;
+    width: 320px;
+    background-image: url(prf10.jpeg);
+    background-size: cover;
+    margin-right: 40px;
+
+}
+
+.large-img:hover{
+    border: 2px solid black;
+}
+
+.info-box{
+    height: 300px;
+    width: 500px;
+}
+
+.info-box h1{
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.info-box #middle{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.info-box #long-para{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.btns-1_2{
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btns-1_2 .first-btn{
+    height: 35px;
+    width: 160px;
+    color: white;
+    background-color: rgb(12, 220, 157);
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-btn p{
+    font-weight: bold;
+}
+
+.btns-1_2 .second-btn{
+    height: 35px;
+    width: 160px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: rgb(12, 220, 157);
+}
+
+.first-btn:hover{
+    background-color: whitesmoke;
+    color: rgb(12, 220, 157);
+}
+
+.second-btn:hover{
+    background-color: whitesmoke;
+    color: rgb(12, 220, 157);
+}
+
+.lower-mid{
+    height: 448px;
+    width: 100%;
+}
+
+.what-do{
+    height: 120px;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.bar{
+    height: 35px;
+    width: 150px;
+    border-left: 5px solid rgb(12, 220, 157);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.what-do p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.skills{
+    height: 200px;
+    width: 90%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1{
+    height: 180px;
+    width: 180px;
+
+}
+
+.js i{
+    font-size: 30px;
+    color: rgb(233, 216, 34);
+}
+
+
+.box1 h5{
+    margin-top: 8px;
+}
+
+.box1 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.box2{
+    height: 180px;
+    width: 180px;
+
+}
+
+.box2-icons{
+    height: 38px;
+    width: 100%;
+    display: flex;
+    gap: 7px;
+}
+
+.A{
+    font-size: 30px;
+    color: rgb(165, 37, 37);
+}
+
+.React{
+    font-size: 30px;
+    color: rgb(60, 175, 232);
+}
+
+.VUE{
+    font-size: 30px;
+    color: rgb(11, 165, 65);
+}
+
+.box2 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+.box3{
+    height: 180px;
+    width: 180px;
+}
+
+.node{
+    font-size: 30px;
+    color: rgb(3, 129, 81);
+}
+
+.box3 h5{
+    margin-top: 4px;
+}
+
+.box3 p{
+    font-size: 13px;
+    margin-top: 10px;
+    
+}
+
+.box4{
+    height: 180px;
+    width: 180px;
+}
+
+.python i{
+    font-size: 30px;
+    color: rgba(13, 14, 87, 0.749);
+}
+
+.box4 h5{
+    margin-top: 7px;
+}
+
+.box4 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+.skill2{
+    height: 102px;
+    width: 90%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box5{
+    height: 100px;
+    width: 180px;
+}
+
+.php{
+    font-size: 30px;
+    color: rgba(15, 15, 107, 0.833);
+}
+
+.box5 h5{
+    margin-top: 4px;
+}
+
+.box5 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.box6{
+    height: 100px;
+    width: 180px;
+}
+
+.box6-icon{
+    font-size: 30px;
+    display: flex;
+    gap: 7px;
+}
+
+.npm{
+    color: brown;
+}
+
+.Gulp{
+    color: brown;
+}
+
+.Grunt{
+    color: rgb(255, 221, 0);
+}
+
+.box6 h5{
+    margin-top: 4px;
+}
+
+.box6 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.box7{
+    height: 100px;
+    width: 180px;
+}
+
+.box7-icons{
+    font-size: 30px;
+    display: flex;
+    gap: 7px;
+}
+
+.HTML{
+    color: orangered;
+}
+
+.CSS{
+    color: rgb(9, 174, 239);
+}
+
+.box7 h5{
+    margin-top: 4px;
+}
+
+.box7 p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.box8{
+    height: 100px;
+    width: 180px;
+}
+
+.box8-icons{
+    font-size: 30px;
+    display: flex;
+    gap: 7px;
+}
+
+.Sass{
+    color: purple;
+}
+
+.Less{
+    color: rgb(13, 13, 141);
+}
+
+.box8 h5{
+    margin-top: 2px;
+}
+
+.box8 p{
+    font-size: 13px;
+    margin-top: 10px;
+}

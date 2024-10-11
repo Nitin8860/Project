@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 1000px;
+    background: rgb(153, 152, 152);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 95%;
+    height: 800px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-nav{
+    width: 100%;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.form-details{
+    width: 96%;
+    height: 750px;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.form-nav i{
+    margin-right: 10px;
+}
+
+.form-nav p{
+    margin-right: 5px;
+}
+
+.nav-img{
+    background-image: url(profile.jpg);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.scr-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img{
+    height: 50px;
+    width: 60px;
+    background-size: cover;
+}
+
+.nav-logo span{
+    text-align: center;
+    margin-right: 800px;
+    font-weight: 700;
+}
+
+.src-icon{
+    margin-right: -30px;
+    position: relative;
+}
+
+.src-icon i{
+    font-size: 14px;
+    color: grey;
+}
+
+.scr-input input{
+    font-size: 12px;
+    margin-right: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.form-details .prsnl-detail{
+    height: 100%;
+    width: 250px;
+    border-right: 2px solid whitesmoke;
+}
+
+.form-details .edit-prsnl{
+    height: 100%;
+    width: 480px;
+    border-right: 2px solid whitesmoke;
+}
+
+.prsnl-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prsnl-detail #ur-prf{
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+
+.prsnl-detail .prsnl-img{
+    background-image: url(profile.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+
+.prsnl-detail #prsnl-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.prsnl-detail .public-react {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.public-react p{
+    font-size: 12px;
+    color: gray;
+}
+
+.public-react h3{
+    text-align: center;
+}
+
+
+.posts{
+    padding-right: 15px;
+    margin-left: 30px;
+}
+
+.public-react .posts{
+    border-right: 2px solid rgb(230, 228, 228);
+}
+
+.messages{
+    padding-right: 15px;
+}
+
+.public-react .messages{
+    border-right: 2px solid rgb(230, 228, 228);
+}
+
+.members{
+margin-right: 30px;
+}
+
+.upload-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-btn #Avatar{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(14, 119, 240);
+    color: white;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    border: none;
+}
+
+.upload-btn #Avatar:hover{
+    background-color: rgb(23, 146, 247);
+    cursor: pointer;
+}
+
+.upload-btn #Delete{
+    width: 65px;
+    height: 28px;
+    border: 1.5px solid rgb(169, 167, 167);
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.upload-btn #Delete:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.prsnl-detail .prsnl-foot{
+    height: 235px;
+    width: 100%;
+    border-top: 2px solid whitesmoke;
+    margin-top: 32px;
+}
+
+.prsnl-foot #para1{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.prsnl-foot #para2{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.prsnl-foot #para3{
+    text-align: center;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.foot-icn{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(14, 119, 240);
+}
+
+.mid-nav{
+    height: 40px;
+    width: 480px;
+    border-bottom: 2px solid whitesmoke;
+
+}
+
+.mid-nav p{
+    margin: 12px;
+    color: grey;
+}
+
+.detail-1{
+    height: 200px;
+    width: 100%;
+}
+
+
+.detail-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.detail-1 .full-name input{
+    width: 350px;
+    height: 28px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-left: 15px;
+    
+}
+
+.detail-1 .full-name input:hover{
+    border: 2px solid black;
+}
+
+.detail-1 .full-name label{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.detail-1 .title input{
+    width: 340px;
+    height: 28px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.detail-1 .title input:hover{
+    border: 2px solid black;
+}
+
+.detail-1 .title label{
+    margin-left: 70px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.detail-1 .Email input{
+    width: 340px;
+    height: 28px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.detail-1 .Email input:hover{
+    border: 2px solid black;
+}
+
+.detail-1 .Email label{
+    margin-left: 60px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.birthday{
+    height: 120px;
+    width: 100%;
+    border-top: 2px solid whitesmoke;
+}
+
+.birthday p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.birthday .date-mon-year{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.b-date #Day{
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.b-date #Day:hover{
+    border: 2px solid black;
+}
+
+.b-month #Month{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.b-month #Month:hover{
+    border: 2px solid black;
+}
+
+.b-year #Year{
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.b-year #Year:hover{
+    border: 2px solid black;
+}
+
+.Location{
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid whitesmoke;
+    display: flex;
+}
+
+.country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.country #Country{
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.country #Country:hover{
+    border: 2px solid black;
+}
+
+.State{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.State input{
+    height: 30px;
+    width: 180px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.State input:hover{
+    border: 2px solid black;
+}
+
+.post-code{
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid whitesmoke;
+    display: flex;
+
+}
+
+.post-code .postal{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.post-code .postal label{
+    margin-left: 25px;
+}
+
+.post-code .postal input{
+    height: 28px;
+    width: 180px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.post-code .postal input:hover{
+    border: 2px solid black;
+}
+
+.post-code .phone-no{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.post-code .phone-no label{
+    margin-left: 25px;
+}
+
+.post-code .phone-no input{
+    height: 29px;
+    width: 180px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.post-code .phone-no input:hover{
+    border: 2px solid black;
+}
+
+.agree{
+    border-top: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.agree .checkbox{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.agree button{
+    height: 30px;
+    width: 135px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(14, 119, 240);
+    color: white;
+    margin-top: 10px;
+}
+
+.agree button:hover{
+    background-color: rgb(23, 146, 247);
+    cursor: pointer;
+}
+
+
+.last-nav{
+    width: 430px;
+    height: 710px;
+    border-left: 1px solid whitesmoke;
+}
+
+.link-nav{
+    height: 35px;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke ;
+    display: flex;
+    align-items: center; 
+    padding-left: 20px;
+    color: grey;
+}
+
+.URL{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-size: 14px;
+}
+
+.URL label{
+    margin-bottom: 7px;
+}
+
+.URL input{
+    height: 27px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.URL input:hover{
+    border: 2px solid black;
+}
+
+.URL-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.URL-btn button{
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(14, 119, 240);
+    color: white;
+    margin-top: 160px;
+}
+
+.URL-btn button:hover{
+    background-color: rgb(23, 146, 247);
+    cursor: pointer;
+}
+
+
